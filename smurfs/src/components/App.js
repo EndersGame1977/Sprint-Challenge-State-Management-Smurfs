@@ -7,8 +7,8 @@ import CreateSmurf from "./CreateSmurf";
 export default function App() {
   return (
     <div>
-      <Smurfs />
       <CreateSmurf />
+      <Smurfs />
     </div>
   );
 }

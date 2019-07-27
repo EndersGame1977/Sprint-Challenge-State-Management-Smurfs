@@ -20,10 +20,10 @@ export default function Smurfs() {
       .catch(err => console.log(err.response));
   }, []);
 
-  console.log(state.smurfs);
+  console.log(state);
   return (
-    <div>
-      {state.smurfs.map(smurf => {
+    <div className="row">
+      {state.map(smurf => {
         return <Smurf smurf={smurf} />;
       })}
     </div>
